@@ -1,0 +1,597 @@
+0000.001 (0) Opened log file at time: Tue, 20 Jun 2017 03:19:02 +0000 on http://localhost/captain-auto
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 5.6.25 (apache2handler, Windows NT NO-NAME 10.0 build 14393 (Windows 10) i586) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win32) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.6M | 24M) multisite: N openssl: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 57035.6 MB
+0000.015 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB: 1 (schedule: weekly)
+0000.021 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.023 (0) Set semaphore last lock (fd) time to 2017-06-20 03:19:02
+0000.025 (0) Semaphore lock (fd) complete
+0000.032 (0) Backup run: resumption=0, nonce=2aa199771ad0, begun at=1497928742 (0s ago), job type=backup
+0000.035 (0) Scheduling a resumption (1) after 300 seconds (1497929042) in case this run gets aborted
+0000.046 (0) Checking if we have a zip executable available
+0000.049 (0) Creation of backups of directories: beginning
+0000.056 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.399 (0) Total entities for the zip file: 209 directories, 1291 files (0 skipped as non-modified), 23.1 MB
+0002.405 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0002.502 (0) Zip: backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip.tmp: 100 files added (on-disk size: 37.9 KB)
+0002.619 (0) Zip: backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip.tmp: 200 files added (on-disk size: 37.9 KB)
+0002.752 (0) Zip: backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip.tmp: 300 files added (on-disk size: 37.9 KB)
+0002.887 (0) Zip: backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip.tmp: 400 files added (on-disk size: 37.9 KB)
+0003.040 (0) Zip: backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip.tmp: 500 files added (on-disk size: 37.9 KB)
+0003.046 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.8 MB, 1291 files batched, 501 (502) added so far); re-opening (prior size: 37.9 KB)
+0005.324 (0) Zip: backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip.tmp: 600 files added (on-disk size: 5301.7 KB)
+0005.539 (0) Zip: backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip.tmp: 700 files added (on-disk size: 5301.7 KB)
+0005.729 (0) Zip: backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip.tmp: 800 files added (on-disk size: 5301.7 KB)
+0005.937 (0) Zip: backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip.tmp: 900 files added (on-disk size: 5301.7 KB)
+0006.160 (0) Zip: backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip.tmp: 1000 files added (on-disk size: 5301.7 KB)
+0006.168 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.1 MB, 1291 files batched, 501 (1003) added so far); re-opening (prior size: 5301.7 KB)
+0006.638 (0) Zip: backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip.tmp: 1100 files added (on-disk size: 6000.5 KB)
+0006.857 (0) Zip: backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip.tmp: 1200 files added (on-disk size: 6000.5 KB)
+0007.502 (0) Created plugins zip (0) - 7132.3 KB in 7.4 s (959.1 KB/s) (sha1: 49811481ea957c00aa3b5b23c332e3a7b35247fe, sha256: 7568276becd3a14bd6fb0bde68059938e75dcd904e59d3cecb401ee2248bce8e)
+0007.511 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.635 (0) Total entities for the zip file: 24 directories, 144 files (0 skipped as non-modified), 2.9 MB
+0007.716 (0) Zip: backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.993 (0) Created themes zip (0) - 2243.5 KB in 0.5 s (4743.9 KB/s) (sha1: 5e44ead632d1d9ebbfbff3fed323d2a8e9f8cda2, sha256: 12c454d5b53447d2720bfa8c8a62cdc9c59f0893e3660909ef95d00d6c89dc31)
+0008.002 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.003 (0) Looking for candidates to back up in: C:\wamp\www\captain-auto/wp-content/uploads
+0008.005 (0) finding files: 2017: adding to list (1)
+0008.007 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.021 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0008.034 (0) Created uploads zip (0) - 0.2 KB in 0 s (14 KB/s) (sha1: 5436f460f3f965ce8c7405436dd7d4713c6e2915, sha256: f36caf1a00f12a4604197228e10c3b3b88e66cf4efde421200928530ed012e98)
+0008.042 (0) Beginning backup of other directories found in the content directory (index: 0)
+0008.043 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0008.045 (0) Looking for candidates to back up in: C:\wamp\www\captain-auto/wp-content
+0008.047 (0) finding files: advanced-cache.php: adding to list (1)
+0008.048 (0) finding files: cache: skipping: excluded by options
+0008.050 (0) finding files: index.php: adding to list (2)
+0008.052 (0) finding files: plugins: skipping: this is the plugins directory
+0008.053 (0) finding files: themes: skipping: this is the themes directory
+0008.055 (0) finding files: updraft: skipping: this is the updraft directory
+0008.056 (0) finding files: upgrade: skipping: excluded by options
+0008.058 (0) finding files: uploads: skipping: this is the uploads directory
+0008.059 (0) finding files: wp-cache-config.php: adding to list (3)
+0008.079 (0) Total entities for the zip file: 0 directories, 3 files (0 skipped as non-modified), 0 MB
+0008.091 (0) Created others zip (0) - 2.8 KB in 0 s (130.4 KB/s) (sha1: e5da6679a8606341436c69320623c3fd88e7c6f6, sha256: 029c3e059ddb8605734fc22ec48c7fd27e34a9882b21ab1cc774a599ad93b59b)
+0008.103 (0) Saving backup status to database (elements: 8)
+0008.107 (0) Beginning creation of database dump (WordPress DB)
+0008.123 (0) Table wp_options: Total expected rows (approximate): 193
+0008.172 (0) Table wp_options: Total rows added: 188 in 0.05 seconds
+0008.180 (0) Table wp_options: finishing file (backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_options.table.gz - 116.6 KB)
+0008.189 (0) Table wp_users: Total expected rows (approximate): 1
+0008.193 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0008.195 (0) Table wp_users: finishing file (backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_users.table.gz - 0.5 KB)
+0008.203 (0) Table wp_usermeta: Total expected rows (approximate): 19
+0008.207 (0) Table wp_usermeta: Total rows added: 19 in 0.00 seconds
+0008.210 (0) Table wp_usermeta: finishing file (backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_usermeta.table.gz - 0.9 KB)
+0008.218 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0008.221 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0008.224 (0) Table wp_commentmeta: finishing file (backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0008.238 (0) Table wp_comments: Total expected rows (approximate): 1
+0008.242 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0008.244 (0) Table wp_comments: finishing file (backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_comments.table.gz - 0.7 KB)
+0008.252 (0) Table wp_links: Total expected rows (approximate): 0
+0008.255 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0008.258 (0) Table wp_links: finishing file (backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_links.table.gz - 0.4 KB)
+0008.265 (0) Table wp_postmeta: Total expected rows (approximate): 7
+0008.269 (0) Table wp_postmeta: Total rows added: 7 in 0.00 seconds
+0008.272 (0) Table wp_postmeta: finishing file (backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_postmeta.table.gz - 1.1 KB)
+0008.279 (0) Table wp_posts: Total expected rows (approximate): 4
+0008.285 (0) Table wp_posts: Total rows added: 4 in 0.00 seconds
+0008.287 (0) Table wp_posts: finishing file (backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_posts.table.gz - 1.8 KB)
+0008.295 (0) Table wp_term_relationships: Total expected rows (approximate): 1
+0008.298 (0) Table wp_term_relationships: Total rows added: 1 in 0.00 seconds
+0008.300 (0) Table wp_term_relationships: finishing file (backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0008.308 (0) Table wp_term_taxonomy: Total expected rows (approximate): 1
+0008.312 (0) Table wp_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0008.314 (0) Table wp_term_taxonomy: finishing file (backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0008.322 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0008.325 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0008.327 (0) Table wp_termmeta: finishing file (backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_termmeta.table.gz - 0.4 KB)
+0008.335 (0) Table wp_terms: Total expected rows (approximate): 1
+0008.338 (0) Table wp_terms: Total rows added: 1 in 0.00 seconds
+0008.340 (0) Table wp_terms: finishing file (backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_terms.table.gz - 0.4 KB)
+0008.348 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_options.table.gz (1/12): adding to final database dump
+0008.379 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_users.table.gz (2/12): adding to final database dump
+0008.382 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0008.385 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0008.387 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0008.389 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_links.table.gz (6/12): adding to final database dump
+0008.391 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0008.394 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0008.396 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0008.398 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0008.401 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0008.403 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0008.409 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: finished writing out complete database file (104 KB)
+0008.425 (0) Total database tables backed up: 12 (backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz, size: 123810, sha256)
+0008.433 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0008.435 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0008.437 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0008.438 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: others: This file has not yet been successfully uploaded: will queue
+0008.440 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.442 (0) Saving backup history. Total backup size: 9.3 MB
+0008.446 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0008.451 (0) Cloud backup selection (1/1): email (last)
+0008.453 (0) Beginning dispatch of backup to remote (email)
+0008.455 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: email to: jorda...
+0009.530 (0) Mails were not sent successfully
+0009.533 (0) An error condition has occurred for the first time during this job
+0009.535 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: email to: jorda...
+0010.571 (0) Mails were not sent successfully
+0010.577 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: email to: jorda...
+0011.593 (0) Mails were not sent successfully
+0011.599 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: email to: jorda...
+0012.613 (0) Mails were not sent successfully
+0012.618 (0) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: email to: jorda...
+0013.638 (0) Mails were not sent successfully
+0013.649 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0013.652 (0) Number of backup sets in history: 2; groups (db): 1
+0013.655 (0) Examining (for databases) backup set with group_id=0, nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+0013.657 (0) This backup set is the backup set just made, so will not be deleted.
+0013.660 (0) Examining (for databases) backup set with group_id=0, nonce=678343b12bf6, datestamp=1497928688 (Jun 20 2017 03:18:08)
+0013.662 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.665 (0) Number of backup sets in history: 2; groups (files): 1
+0013.667 (0) Examining (for files) backup set with nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+0013.670 (0) This backup set is the backup set just made, so will not be deleted.
+0013.672 (0) This backup set is the backup set just made, so will not be deleted.
+0013.673 (0) This backup set is the backup set just made, so will not be deleted.
+0013.675 (0) This backup set is the backup set just made, so will not be deleted.
+0013.676 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.678 (0) Examining (for files) backup set with nonce=678343b12bf6, datestamp=1497928688 (Jun 20 2017 03:18:08)
+0013.680 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.681 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0013.686 (0) Resume backup (2aa199771ad0, 0): finish run
+0013.689 (0) Decremented the semaphore (fd) by 1
+0013.691 (0) Semaphore (fd) unlocked
+0013.692 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0013.698 (0) Rescheduling resumption 1: moving to 120 seconds from now (1497928876)
+0013.701 (0) The backup has not finished; a resumption is scheduled
+0136.305 (1) Opened log file at time: Tue, 20 Jun 2017 03:21:19 +0000 on http://localhost/captain-auto
+0136.308 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 5.6.25 (apache2handler, Windows NT NO-NAME 10.0 build 14393 (Windows 10) i586) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win32) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.9M | 19.5M) multisite: N openssl: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0136.310 (1) Free space on disk containing Updraft's temporary directory: 57024.3 MB
+0136.314 (1) Backup run: resumption=1, nonce=2aa199771ad0, begun at=1497928742 (137s ago), job type=backup, previous check-in=8.3s
+0136.319 (1) Scheduling a resumption (2) after 300 seconds (1497929179) in case this run gets aborted
+0136.332 (1) Checking if we have a zip executable available
+0136.334 (1) Creation of backups of directories: already finished
+0136.337 (1) Saving backup status to database (elements: 8)
+0136.342 (1) Database dump (WordPress DB): Creation was completed already
+0136.351 (1) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0136.353 (1) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0136.355 (1) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0136.357 (1) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: others: This file has not yet been successfully uploaded: will queue
+0136.359 (1) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: db: This file has not yet been successfully uploaded: will queue
+0136.360 (1) Saving backup history. Total backup size: 9.3 MB
+0136.364 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0136.368 (1) Cloud backup selection (1/1): email (last)
+0136.371 (1) Beginning dispatch of backup to remote (email)
+0136.373 (1) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: email to: jorda...
+0137.460 (1) Mails were not sent successfully
+0137.466 (1) An error condition has occurred for the first time during this job
+0137.473 (1) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: email to: jorda...
+0138.515 (1) Mails were not sent successfully
+0138.521 (1) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: email to: jorda...
+0139.537 (1) Mails were not sent successfully
+0139.543 (1) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: email to: jorda...
+0140.560 (1) Mails were not sent successfully
+0140.566 (1) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: email to: jorda...
+0141.583 (1) Mails were not sent successfully
+0141.595 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0141.602 (1) Number of backup sets in history: 3; groups (db): 1
+0141.606 (1) Examining (for databases) backup set with group_id=0, nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+0141.611 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0141.615 (1) Examining (for databases) backup set with group_id=0, nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+0141.619 (1) This backup set is the backup set just made, so will not be deleted.
+0141.624 (1) Examining (for databases) backup set with group_id=0, nonce=678343b12bf6, datestamp=1497928688 (Jun 20 2017 03:18:08)
+0141.628 (1) 1497928688: db: this set includes a database (backup_2017-06-19-2218_Captain_Auto_Fort_Worth_ASE_Ce_678343b12bf6-db.gz); db count is now 2
+0141.630 (1) 1497928688: db: over retain limit (2); will delete this database
+0141.631 (1) Delete file: backup_2017-06-19-2218_Captain_Auto_Fort_Worth_ASE_Ce_678343b12bf6-db.gz, service=email
+0141.634 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0141.636 (1) Number of backup sets in history: 3; groups (files): 1
+0141.637 (1) Examining (for files) backup set with nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+0141.639 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0141.640 (1) Examining (for files) backup set with nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+0141.642 (1) This backup set is the backup set just made, so will not be deleted.
+0141.643 (1) This backup set is the backup set just made, so will not be deleted.
+0141.644 (1) This backup set is the backup set just made, so will not be deleted.
+0141.645 (1) This backup set is the backup set just made, so will not be deleted.
+0141.646 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0141.647 (1) Examining (for files) backup set with nonce=678343b12bf6, datestamp=1497928688 (Jun 20 2017 03:18:08)
+0141.649 (1) plugins: over retain limit (2); will delete this file entity
+0141.650 (1) themes: over retain limit (2); will delete this file entity
+0141.651 (1) uploads: over retain limit (2); will delete this file entity
+0141.653 (1) others: over retain limit (2); will delete this file entity
+0141.654 (1) Delete file: backup_2017-06-19-2218_Captain_Auto_Fort_Worth_ASE_Ce_678343b12bf6-plugins.zip, service=email
+0141.656 (1) Delete file: backup_2017-06-19-2218_Captain_Auto_Fort_Worth_ASE_Ce_678343b12bf6-themes.zip, service=email
+0141.657 (1) Delete file: backup_2017-06-19-2218_Captain_Auto_Fort_Worth_ASE_Ce_678343b12bf6-uploads.zip, service=email
+0141.659 (1) Delete file: backup_2017-06-19-2218_Captain_Auto_Fort_Worth_ASE_Ce_678343b12bf6-others.zip, service=email
+0141.663 (1) This backup set is now empty; will remove from history
+0141.664 (1) Deleting log file (log.678343b12bf6.txt)
+0141.666 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0141.671 (1) Resume backup (2aa199771ad0, 1): finish run
+0141.674 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0141.677 (1) The backup has not finished; a resumption is scheduled
+0453.436 (2) Opened log file at time: Tue, 20 Jun 2017 03:26:36 +0000 on http://localhost/captain-auto
+0453.438 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 5.6.25 (apache2handler, Windows NT NO-NAME 10.0 build 14393 (Windows 10) i586) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win32) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.9M | 19.5M) multisite: N openssl: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0453.440 (2) Free space on disk containing Updraft's temporary directory: 57025.3 MB
+0453.444 (2) Backup run: resumption=2, nonce=2aa199771ad0, begun at=1497928742 (454s ago), job type=backup, previous check-in=5.4s
+0453.447 (2) Scheduling a resumption (3) after 300 seconds (1497929496) in case this run gets aborted
+0453.458 (2) Checking if we have a zip executable available
+0453.460 (2) Creation of backups of directories: already finished
+0453.463 (2) Saving backup status to database (elements: 8)
+0453.466 (2) Database dump (WordPress DB): Creation was completed already
+0453.474 (2) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0453.476 (2) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0453.478 (2) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0453.479 (2) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: others: This file has not yet been successfully uploaded: will queue
+0453.481 (2) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: db: This file has not yet been successfully uploaded: will queue
+0453.482 (2) Saving backup history. Total backup size: 9.3 MB
+0453.486 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0453.489 (2) Cloud backup selection (1/1): email (last)
+0453.493 (2) Beginning dispatch of backup to remote (email)
+0453.495 (2) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: email to: jorda...
+0454.580 (2) Mails were not sent successfully
+0454.587 (2) An error condition has occurred for the first time during this job
+0454.589 (2) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: email to: jorda...
+0455.626 (2) Mails were not sent successfully
+0455.633 (2) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: email to: jorda...
+0456.646 (2) Mails were not sent successfully
+0456.651 (2) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: email to: jorda...
+0457.667 (2) Mails were not sent successfully
+0457.672 (2) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: email to: jorda...
+0458.691 (2) Mails were not sent successfully
+0458.703 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0458.708 (2) Number of backup sets in history: 2; groups (db): 1
+0458.713 (2) Examining (for databases) backup set with group_id=0, nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+0458.717 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0458.722 (2) Examining (for databases) backup set with group_id=0, nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+0458.726 (2) This backup set is the backup set just made, so will not be deleted.
+0458.728 (2) Number of backup sets in history: 2; groups (files): 1
+0458.730 (2) Examining (for files) backup set with nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+0458.731 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0458.733 (2) Examining (for files) backup set with nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+0458.734 (2) This backup set is the backup set just made, so will not be deleted.
+0458.736 (2) This backup set is the backup set just made, so will not be deleted.
+0458.736 (2) This backup set is the backup set just made, so will not be deleted.
+0458.737 (2) This backup set is the backup set just made, so will not be deleted.
+0458.738 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0458.739 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0458.743 (2) Resume backup (2aa199771ad0, 2): finish run
+0458.745 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0458.749 (2) The backup has not finished; a resumption is scheduled
+0813.420 (3) Opened log file at time: Tue, 20 Jun 2017 03:32:36 +0000 on http://localhost/captain-auto
+0813.422 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 5.6.25 (apache2handler, Windows NT NO-NAME 10.0 build 14393 (Windows 10) i586) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win32) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.9M | 19.5M) multisite: N openssl: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0813.424 (3) Free space on disk containing Updraft's temporary directory: 57022.9 MB
+0813.427 (3) Backup run: resumption=3, nonce=2aa199771ad0, begun at=1497928742 (814s ago), job type=backup
+0813.430 (3) Scheduling a resumption (4) after 300 seconds (1497929856) in case this run gets aborted
+0813.441 (3) Checking if we have a zip executable available
+0813.443 (3) Creation of backups of directories: already finished
+0813.446 (3) Saving backup status to database (elements: 8)
+0813.449 (3) Database dump (WordPress DB): Creation was completed already
+0813.457 (3) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0813.459 (3) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0813.460 (3) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0813.462 (3) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: others: This file has not yet been successfully uploaded: will queue
+0813.464 (3) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: db: This file has not yet been successfully uploaded: will queue
+0813.465 (3) Saving backup history. Total backup size: 9.3 MB
+0813.469 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+0813.472 (3) Cloud backup selection (1/1): email (last)
+0813.475 (3) Beginning dispatch of backup to remote (email)
+0813.477 (3) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: email to: jorda...
+0814.557 (3) Mails were not sent successfully
+0814.564 (3) An error condition has occurred for the first time during this job
+0814.569 (3) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: email to: jorda...
+0815.609 (3) Mails were not sent successfully
+0815.615 (3) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: email to: jorda...
+0816.635 (3) Mails were not sent successfully
+0816.641 (3) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: email to: jorda...
+0817.658 (3) Mails were not sent successfully
+0817.664 (3) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: email to: jorda...
+0818.682 (3) Mails were not sent successfully
+0818.693 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0818.700 (3) Number of backup sets in history: 2; groups (db): 1
+0818.704 (3) Examining (for databases) backup set with group_id=0, nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+0818.709 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0818.715 (3) Examining (for databases) backup set with group_id=0, nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+0818.721 (3) This backup set is the backup set just made, so will not be deleted.
+0818.726 (3) Number of backup sets in history: 2; groups (files): 1
+0818.729 (3) Examining (for files) backup set with nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+0818.731 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0818.734 (3) Examining (for files) backup set with nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+0818.736 (3) This backup set is the backup set just made, so will not be deleted.
+0818.738 (3) This backup set is the backup set just made, so will not be deleted.
+0818.740 (3) This backup set is the backup set just made, so will not be deleted.
+0818.741 (3) This backup set is the backup set just made, so will not be deleted.
+0818.742 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0818.744 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0818.750 (3) Resume backup (2aa199771ad0, 3): finish run
+0818.753 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0818.758 (3) The backup has not finished; a resumption is scheduled
+1173.425 (4) Opened log file at time: Tue, 20 Jun 2017 03:38:36 +0000 on http://localhost/captain-auto
+1173.427 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 5.6.25 (apache2handler, Windows NT NO-NAME 10.0 build 14393 (Windows 10) i586) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win32) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.9M | 19.5M) multisite: N openssl: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1173.429 (4) Free space on disk containing Updraft's temporary directory: 56984.4 MB
+1173.432 (4) Backup run: resumption=4, nonce=2aa199771ad0, begun at=1497928742 (1174s ago), job type=backup
+1173.436 (4) Scheduling a resumption (5) after 300 seconds (1497930216) in case this run gets aborted
+1173.446 (4) Checking if we have a zip executable available
+1173.448 (4) Creation of backups of directories: already finished
+1173.451 (4) Saving backup status to database (elements: 8)
+1173.454 (4) Database dump (WordPress DB): Creation was completed already
+1173.463 (4) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1173.464 (4) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1173.466 (4) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1173.468 (4) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: others: This file has not yet been successfully uploaded: will queue
+1173.469 (4) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: db: This file has not yet been successfully uploaded: will queue
+1173.471 (4) Saving backup history. Total backup size: 9.3 MB
+1173.475 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+1173.478 (4) Cloud backup selection (1/1): email (last)
+1173.481 (4) Beginning dispatch of backup to remote (email)
+1173.483 (4) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: email to: jorda...
+1174.568 (4) Mails were not sent successfully
+1174.574 (4) An error condition has occurred for the first time during this job
+1174.580 (4) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: email to: jorda...
+1175.615 (4) Mails were not sent successfully
+1175.621 (4) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: email to: jorda...
+1176.641 (4) Mails were not sent successfully
+1176.647 (4) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: email to: jorda...
+1177.662 (4) Mails were not sent successfully
+1177.668 (4) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: email to: jorda...
+1178.683 (4) Mails were not sent successfully
+1178.694 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1178.699 (4) Number of backup sets in history: 2; groups (db): 1
+1178.701 (4) Examining (for databases) backup set with group_id=0, nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+1178.704 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1178.706 (4) Examining (for databases) backup set with group_id=0, nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+1178.708 (4) This backup set is the backup set just made, so will not be deleted.
+1178.711 (4) Number of backup sets in history: 2; groups (files): 1
+1178.713 (4) Examining (for files) backup set with nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+1178.716 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1178.718 (4) Examining (for files) backup set with nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+1178.720 (4) This backup set is the backup set just made, so will not be deleted.
+1178.723 (4) This backup set is the backup set just made, so will not be deleted.
+1178.724 (4) This backup set is the backup set just made, so will not be deleted.
+1178.725 (4) This backup set is the backup set just made, so will not be deleted.
+1178.726 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1178.728 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1178.732 (4) Resume backup (2aa199771ad0, 4): finish run
+1178.733 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1178.737 (4) The backup has not finished; a resumption is scheduled
+1535.438 (5) Opened log file at time: Tue, 20 Jun 2017 03:44:38 +0000 on http://localhost/captain-auto
+1535.440 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 5.6.25 (apache2handler, Windows NT NO-NAME 10.0 build 14393 (Windows 10) i586) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win32) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.9M | 19.5M) multisite: N openssl: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1535.442 (5) Free space on disk containing Updraft's temporary directory: 56961.9 MB
+1535.446 (5) Backup run: resumption=5, nonce=2aa199771ad0, begun at=1497928742 (1536s ago), job type=backup
+1535.449 (5) Scheduling a resumption (6) after 300 seconds (1497930578) in case this run gets aborted
+1535.461 (5) Checking if we have a zip executable available
+1535.463 (5) Creation of backups of directories: already finished
+1535.466 (5) Saving backup status to database (elements: 8)
+1535.469 (5) Database dump (WordPress DB): Creation was completed already
+1535.478 (5) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1535.479 (5) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1535.481 (5) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1535.483 (5) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: others: This file has not yet been successfully uploaded: will queue
+1535.485 (5) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: db: This file has not yet been successfully uploaded: will queue
+1535.486 (5) Saving backup history. Total backup size: 9.3 MB
+1535.490 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+1535.493 (5) Cloud backup selection (1/1): email (last)
+1535.497 (5) Beginning dispatch of backup to remote (email)
+1535.499 (5) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: email to: jorda...
+1536.592 (5) Mails were not sent successfully
+1536.597 (5) An error condition has occurred for the first time during this job
+1536.601 (5) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: email to: jorda...
+1537.635 (5) Mails were not sent successfully
+1537.642 (5) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: email to: jorda...
+1538.654 (5) Mails were not sent successfully
+1538.660 (5) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: email to: jorda...
+1539.676 (5) Mails were not sent successfully
+1539.682 (5) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: email to: jorda...
+1540.699 (5) Mails were not sent successfully
+1540.711 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1540.717 (5) Number of backup sets in history: 2; groups (db): 1
+1540.721 (5) Examining (for databases) backup set with group_id=0, nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+1540.726 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1540.731 (5) Examining (for databases) backup set with group_id=0, nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+1540.735 (5) This backup set is the backup set just made, so will not be deleted.
+1540.738 (5) Number of backup sets in history: 2; groups (files): 1
+1540.740 (5) Examining (for files) backup set with nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+1540.742 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1540.743 (5) Examining (for files) backup set with nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+1540.745 (5) This backup set is the backup set just made, so will not be deleted.
+1540.746 (5) This backup set is the backup set just made, so will not be deleted.
+1540.747 (5) This backup set is the backup set just made, so will not be deleted.
+1540.748 (5) This backup set is the backup set just made, so will not be deleted.
+1540.748 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1540.750 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1540.753 (5) Resume backup (2aa199771ad0, 5): finish run
+1540.755 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1540.759 (5) The backup has not finished; a resumption is scheduled
+1876.579 (6) Opened log file at time: Tue, 20 Jun 2017 03:50:19 +0000 on http://localhost/captain-auto
+1876.581 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 5.6.25 (apache2handler, Windows NT NO-NAME 10.0 build 14393 (Windows 10) i586) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win32) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.9M | 19.5M) multisite: N openssl: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1876.583 (6) Free space on disk containing Updraft's temporary directory: 56907.7 MB
+1876.587 (6) Backup run: resumption=6, nonce=2aa199771ad0, begun at=1497928742 (1877s ago), job type=backup
+1876.590 (6) Scheduling a resumption (7) after 300 seconds (1497930919) in case this run gets aborted
+1876.601 (6) Checking if we have a zip executable available
+1876.603 (6) Creation of backups of directories: already finished
+1876.606 (6) Saving backup status to database (elements: 8)
+1876.609 (6) Database dump (WordPress DB): Creation was completed already
+1876.618 (6) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1876.619 (6) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1876.621 (6) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1876.623 (6) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: others: This file has not yet been successfully uploaded: will queue
+1876.625 (6) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: db: This file has not yet been successfully uploaded: will queue
+1876.626 (6) Saving backup history. Total backup size: 9.3 MB
+1876.630 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+1876.634 (6) Cloud backup selection (1/1): email (last)
+1876.637 (6) Beginning dispatch of backup to remote (email)
+1876.639 (6) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: email to: jorda...
+1877.727 (6) Mails were not sent successfully
+1877.730 (6) An error condition has occurred for the first time during this job
+1877.732 (6) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: email to: jorda...
+1878.767 (6) Mails were not sent successfully
+1878.773 (6) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: email to: jorda...
+1879.790 (6) Mails were not sent successfully
+1879.796 (6) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: email to: jorda...
+1880.815 (6) Mails were not sent successfully
+1880.820 (6) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: email to: jorda...
+1881.849 (6) Mails were not sent successfully
+1881.854 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1881.856 (6) Number of backup sets in history: 2; groups (db): 1
+1881.858 (6) Examining (for databases) backup set with group_id=0, nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+1881.860 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1881.862 (6) Examining (for databases) backup set with group_id=0, nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+1881.863 (6) This backup set is the backup set just made, so will not be deleted.
+1881.865 (6) Number of backup sets in history: 2; groups (files): 1
+1881.867 (6) Examining (for files) backup set with nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+1881.868 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1881.870 (6) Examining (for files) backup set with nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+1881.872 (6) This backup set is the backup set just made, so will not be deleted.
+1881.874 (6) This backup set is the backup set just made, so will not be deleted.
+1881.875 (6) This backup set is the backup set just made, so will not be deleted.
+1881.875 (6) This backup set is the backup set just made, so will not be deleted.
+1881.876 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1881.877 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1881.882 (6) Resume backup (2aa199771ad0, 6): finish run
+1881.884 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1881.887 (6) The backup has not finished; a resumption is scheduled
+2232.933 (7) Opened log file at time: Tue, 20 Jun 2017 03:56:15 +0000 on http://localhost/captain-auto
+2232.935 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 5.6.25 (apache2handler, Windows NT NO-NAME 10.0 build 14393 (Windows 10) i586) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win32) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.9M | 19.5M) multisite: N openssl: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+2232.936 (7) Free space on disk containing Updraft's temporary directory: 56893.7 MB
+2232.941 (7) Backup run: resumption=7, nonce=2aa199771ad0, begun at=1497928742 (2233s ago), job type=backup
+2232.944 (7) Scheduling a resumption (8) after 300 seconds (1497931275) in case this run gets aborted
+2232.955 (7) Checking if we have a zip executable available
+2232.957 (7) Creation of backups of directories: already finished
+2232.960 (7) Saving backup status to database (elements: 8)
+2232.963 (7) Database dump (WordPress DB): Creation was completed already
+2232.971 (7) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2232.973 (7) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2232.975 (7) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2232.976 (7) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: others: This file has not yet been successfully uploaded: will queue
+2232.978 (7) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: db: This file has not yet been successfully uploaded: will queue
+2232.979 (7) Saving backup history. Total backup size: 9.3 MB
+2232.983 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+2232.987 (7) Cloud backup selection (1/1): email (last)
+2232.990 (7) Beginning dispatch of backup to remote (email)
+2232.992 (7) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: email to: jorda...
+2234.096 (7) Mails were not sent successfully
+2234.103 (7) An error condition has occurred for the first time during this job
+2234.109 (7) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: email to: jorda...
+2235.149 (7) Mails were not sent successfully
+2235.156 (7) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: email to: jorda...
+2236.187 (7) Mails were not sent successfully
+2236.194 (7) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: email to: jorda...
+2237.225 (7) Mails were not sent successfully
+2237.232 (7) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: email to: jorda...
+2238.252 (7) Mails were not sent successfully
+2238.264 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2238.270 (7) Number of backup sets in history: 2; groups (db): 1
+2238.274 (7) Examining (for databases) backup set with group_id=0, nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+2238.276 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2238.279 (7) Examining (for databases) backup set with group_id=0, nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+2238.281 (7) This backup set is the backup set just made, so will not be deleted.
+2238.283 (7) Number of backup sets in history: 2; groups (files): 1
+2238.286 (7) Examining (for files) backup set with nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+2238.288 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2238.291 (7) Examining (for files) backup set with nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+2238.294 (7) This backup set is the backup set just made, so will not be deleted.
+2238.296 (7) This backup set is the backup set just made, so will not be deleted.
+2238.298 (7) This backup set is the backup set just made, so will not be deleted.
+2238.299 (7) This backup set is the backup set just made, so will not be deleted.
+2238.300 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2238.303 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2238.308 (7) Resume backup (2aa199771ad0, 7): finish run
+2238.310 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2238.313 (7) The backup has not finished; a resumption is scheduled
+2533.424 (8) Opened log file at time: Tue, 20 Jun 2017 04:01:16 +0000 on http://localhost/captain-auto
+2533.426 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 5.6.25 (apache2handler, Windows NT NO-NAME 10.0 build 14393 (Windows 10) i586) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win32) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.9M | 19.5M) multisite: N openssl: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+2533.427 (8) Free space on disk containing Updraft's temporary directory: 56891.1 MB
+2533.431 (8) Backup run: resumption=8, nonce=2aa199771ad0, begun at=1497928742 (2534s ago), job type=backup
+2533.435 (8) Scheduling a resumption (9) after 300 seconds (1497931576) in case this run gets aborted
+2533.446 (8) Checking if we have a zip executable available
+2533.448 (8) Creation of backups of directories: already finished
+2533.451 (8) Saving backup status to database (elements: 8)
+2533.454 (8) Database dump (WordPress DB): Creation was completed already
+2533.465 (8) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2533.468 (8) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2533.470 (8) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2533.471 (8) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: others: This file has not yet been successfully uploaded: will queue
+2533.473 (8) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: db: This file has not yet been successfully uploaded: will queue
+2533.474 (8) Saving backup history. Total backup size: 9.3 MB
+2533.478 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+2533.482 (8) Cloud backup selection (1/1): email (last)
+2533.485 (8) Beginning dispatch of backup to remote (email)
+2533.487 (8) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: email to: jorda...
+2534.577 (8) Mails were not sent successfully
+2534.584 (8) An error condition has occurred for the first time during this job
+2534.589 (8) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: email to: jorda...
+2535.640 (8) Mails were not sent successfully
+2535.647 (8) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: email to: jorda...
+2536.673 (8) Mails were not sent successfully
+2536.680 (8) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: email to: jorda...
+2537.699 (8) Mails were not sent successfully
+2537.706 (8) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: email to: jorda...
+2538.724 (8) Mails were not sent successfully
+2538.729 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2538.731 (8) Number of backup sets in history: 2; groups (db): 1
+2538.733 (8) Examining (for databases) backup set with group_id=0, nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+2538.734 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2538.738 (8) Examining (for databases) backup set with group_id=0, nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+2538.742 (8) This backup set is the backup set just made, so will not be deleted.
+2538.747 (8) Number of backup sets in history: 2; groups (files): 1
+2538.752 (8) Examining (for files) backup set with nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+2538.757 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2538.761 (8) Examining (for files) backup set with nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+2538.765 (8) This backup set is the backup set just made, so will not be deleted.
+2538.770 (8) This backup set is the backup set just made, so will not be deleted.
+2538.772 (8) This backup set is the backup set just made, so will not be deleted.
+2538.774 (8) This backup set is the backup set just made, so will not be deleted.
+2538.776 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2538.780 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2538.792 (8) Resume backup (2aa199771ad0, 8): finish run
+2538.797 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2538.807 (8) The backup has not finished; a resumption is scheduled
+2845.419 (9) Opened log file at time: Tue, 20 Jun 2017 04:06:28 +0000 on http://localhost/captain-auto
+2845.421 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 5.6.25 (apache2handler, Windows NT NO-NAME 10.0 build 14393 (Windows 10) i586) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win32) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.9M | 19.5M) multisite: N openssl: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+2845.423 (9) Free space on disk containing Updraft's temporary directory: 56890.7 MB
+2845.426 (9) Backup run: resumption=9, nonce=2aa199771ad0, begun at=1497928742 (2846s ago), job type=backup
+2845.430 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+2845.439 (9) Creation of backups of directories: already finished
+2845.442 (9) Saving backup status to database (elements: 8)
+2845.445 (9) Database dump (WordPress DB): Creation was completed already
+2845.453 (9) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2845.455 (9) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2845.456 (9) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2845.458 (9) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: others: This file has not yet been successfully uploaded: will queue
+2845.459 (9) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: db: This file has not yet been successfully uploaded: will queue
+2845.461 (9) Saving backup history. Total backup size: 9.3 MB
+2845.464 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+2845.468 (9) Cloud backup selection (1/1): email (last)
+2845.471 (9) Beginning dispatch of backup to remote (email)
+2845.473 (9) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-plugins.zip: email to: jorda...
+2846.555 (9) Mails were not sent successfully
+2846.561 (9) An error condition has occurred for the first time during this job
+2846.568 (9) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-themes.zip: email to: jorda...
+2847.624 (9) Mails were not sent successfully
+2847.630 (9) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-uploads.zip: email to: jorda...
+2848.648 (9) Mails were not sent successfully
+2848.654 (9) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-others.zip: email to: jorda...
+2849.672 (9) Mails were not sent successfully
+2849.674 (9) backup_2017-06-19-2219_Captain_Auto_Fort_Worth_ASE_Ce_2aa199771ad0-db.gz: email to: jorda...
+2850.683 (9) Mails were not sent successfully
+2850.700 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2850.710 (9) Number of backup sets in history: 2; groups (db): 1
+2850.712 (9) Examining (for databases) backup set with group_id=0, nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+2850.714 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2850.716 (9) Examining (for databases) backup set with group_id=0, nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+2850.718 (9) This backup set is the backup set just made, so will not be deleted.
+2850.719 (9) Number of backup sets in history: 2; groups (files): 1
+2850.720 (9) Examining (for files) backup set with nonce=e63eafc81811, datestamp=1497928816 (Jun 20 2017 03:20:16)
+2850.722 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2850.724 (9) Examining (for files) backup set with nonce=2aa199771ad0, datestamp=1497928742 (Jun 20 2017 03:19:02)
+2850.726 (9) This backup set is the backup set just made, so will not be deleted.
+2850.727 (9) This backup set is the backup set just made, so will not be deleted.
+2850.728 (9) This backup set is the backup set just made, so will not be deleted.
+2850.729 (9) This backup set is the backup set just made, so will not be deleted.
+2850.730 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2850.731 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2850.736 (9) Resume backup (2aa199771ad0, 9): finish run
+2850.737 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2850.742 (9) Fetching RSS news feed
+2850.772 (9) Fetched RSS news feed; result is a: SimplePie
+2850.838 (9) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 58 KB) to: jorda...
+2851.852 (9) The backup attempt has finished, apparently unsuccessfully
